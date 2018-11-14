@@ -7,3 +7,9 @@ $doublyLinkedList->run();
 
 $stack = new \spl\Stack();
 $stack->run();
+
+$queue = new \spl\Queue();
+$queue->run();
+
+$heap = new \spl\Heap();
+$heap->run();

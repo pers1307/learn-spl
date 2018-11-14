@@ -12,14 +12,14 @@ namespace spl;
  * Умеет по сути все тоже самое что и двухсвязный список,
  * только название более подходящее
  *
- * Class Stack
+ * Class Queue
  * @package spl
  */
-class Stack
+class Queue
 {
     public function run()
     {
-        $list = new \SplStack();
+        $list = new \SplQueue();
 
         $list->push('first');
         $list->push('second');
@@ -40,9 +40,9 @@ class Stack
         $list->add(3, 'op op');
 
         /**
-         * Перебирает все элементы в обратном порядке
+         * Перебирает все элементы в прямом порядке
          */
-        echo 'Stack: ' . "\n";
+        echo 'Queue: ' . "\n";
         for($list->rewind(); $list->valid(); $list->next()){
             echo 'Key: ' . $list->key() . "\n";
             echo 'Current: ' . $list->current() . "\n";
