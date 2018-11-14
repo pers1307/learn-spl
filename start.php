@@ -13,3 +13,6 @@ $queue->run();
 
 $heap = new \spl\Heap();
 $heap->run();
+
+$priorityQueue = new \spl\PriorityQueue();
+$priorityQueue->run();
