@@ -16,3 +16,6 @@ $heap->run();
 
 $priorityQueue = new \spl\PriorityQueue();
 $priorityQueue->run();
+
+$fixedArray = new \spl\FixedArray();
+$fixedArray->run();
