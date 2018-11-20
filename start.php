@@ -19,3 +19,6 @@ $priorityQueue->run();
 
 $fixedArray = new \spl\FixedArray();
 $fixedArray->run();
+
+$objectStorage = new \spl\ObjectStorage();
+$objectStorage->run();
